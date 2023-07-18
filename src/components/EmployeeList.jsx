@@ -4,13 +4,13 @@ import EmployeeListItem from './EmployeeListItem'
 
 const EmployeeList = () => {
 
-    let { employees } = useContext(AppContext)
-
+    let { employees, currentEmployee, changeEmployee } = useContext(AppContext)
+    
   return (
     <div className='employeeList'>
-        {employees.map((employee) => {
+        {employees.map((employee, index) => {
             return (
-                <EmployeeListItem employee={employee} />
+                <EmployeeListItem employee={employee} index={index} key={index}/>
             )
         })}
       

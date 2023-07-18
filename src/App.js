@@ -6,14 +6,14 @@ import EmployeePage from './components/EmployeePage';
 
 function App() {
 
-  let { test } = useContext(AppContext)
+  let { showEmployee } = useContext(AppContext)
 
   
   return (
     <div className="App">
       
       <HomePage />
-      <EmployeePage />
+      {showEmployee && <EmployeePage /> }
 
     </div>
   );

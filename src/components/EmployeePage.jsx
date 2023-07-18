@@ -4,17 +4,16 @@ import { AppContext } from '../contexts/app_context'
 import EmployeeListItem from './EmployeeListItem'
 
 const EmployeePage = () => {
-    let { employees } = useContext(AppContext)
-
-    let currentEmployee = employees[1]
-    console.log(currentEmployee)
+    let { currentEmployee, changeEmployee } = useContext(AppContext)
+    console.log('current employee is:', currentEmployee.name)
 
   return (
     <div className='employeePage'>
         <Header page="employee"/>
         <div className='employeeInfo'>
-            <EmployeeListItem employee={currentEmployee}/>
+            <EmployeeListItem employee={currentEmployee} parent="employee"/>
             {currentEmployee.contacts.map((contact) => {
+                // {console.log(contact)}
                 return (
                 <div className='contactContainer'>
                     <div className='left'>

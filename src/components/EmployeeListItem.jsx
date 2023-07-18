@@ -1,8 +1,14 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { AppContext } from '../contexts/app_context'
 
-const EmployeeListItem = ( {employee} ) => {
+const EmployeeListItem = ( {employee, index, parent} ) => {
+    // console.log(typeof index)
+
+    let { changeEmployee } = useContext(AppContext)
+
   return (
-    <div className='employeeContainer'>
+    // <div className='employeeContainer' onClick={() => changeEmployee(index)}>
+    <div className='employeeContainer' onClick={() => {parent !== 'employee' && changeEmployee(index)}}>
       <div className='left'>
         <img src={employee.image}/>
       </div>

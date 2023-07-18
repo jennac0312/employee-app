@@ -2,7 +2,7 @@ const employees = [
     {
         name: "James King",
         role: "President and CEO",
-        image: 'https://static.vecteezy.com/system/resources/previews/002/002/403/original/man-with-beard-avatar-character-isolated-icon-free-vector.jpg',
+        image: 'https://cdn3.vectorstock.com/i/1000x1000/71/87/male-avatar-profile-icon-round-man-face-vector-18307187.jpg',
         contacts: [
             {
                 method: 'Call Office',
@@ -48,7 +48,7 @@ const employees = [
     {
         name: "Eugene Lee",
         role: "CFO",
-        image: 'https://cdn.dribbble.com/users/1338391/screenshots/15264109/media/1febee74f57d7d08520ddf66c1ff4c18.jpg?resize=400x0',
+        image: 'https://cdn3.vectorstock.com/i/1000x1000/72/52/male-avatar-profile-icon-round-african-american-vector-18307252.jpg',
         contacts: [
             {
                 method: 'Call Office',
@@ -71,7 +71,7 @@ const employees = [
     {
         name: "John Williams",
         role: "VP of Engineering",
-        image: 'https://assets.materialup.com/uploads/b78ca002-cd6c-4f84-befb-c09dd9261025/preview.png',
+        image: 'https://cdn1.vectorstock.com/i/1000x1000/72/10/male-avatar-profile-icon-round-african-american-vector-18307210.jpg',
         contacts: [
             {
                 method: 'Call Office',
@@ -94,7 +94,7 @@ const employees = [
     {
         name: "Ray Moore",
         role: "VP of Sales",
-        image: 'https://static.vecteezy.com/system/resources/thumbnails/001/993/889/small/beautiful-latin-woman-avatar-character-icon-free-vector.jpg',
+        image: 'https://cdn5.vectorstock.com/i/1000x1000/72/59/female-avatar-profile-icon-round-african-american-vector-18307259.jpg',
         contacts: [
             {
                 method: 'Call Office',
@@ -117,7 +117,7 @@ const employees = [
     {
         name: "Paul Jones",
         role: "QA Manager",
-        image: 'https://media.gettyimages.com/id/1331350914/es/vector/icono-de-avatar-masculino.jpg?s=1024x1024&w=gi&k=20&c=CsCi0eDMENEyIPhfsDhjdALQfGsyJks6ApfmQaMWBR8=',
+        image: 'https://cdn4.vectorstock.com/i/1000x1000/72/98/female-avatar-profile-icon-round-african-american-vector-18307298.jpg',
         contacts: [
             {
                 method: 'Call Office',

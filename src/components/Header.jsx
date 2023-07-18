@@ -1,11 +1,15 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { AppContext } from '../contexts/app_context'
 
 const Header = ( {page} ) => {
+
+  let { toggleEmployeePage } = useContext(AppContext)
+
   return (
     <div className='header'>
       { page === 'employee' && 
       <div className='arrowContainer'>
-        <p className='arrow'>˂</p>
+        <p className='arrow' onClick={toggleEmployeePage}>˂</p>
       </div>
       }
 
