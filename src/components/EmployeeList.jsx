@@ -4,11 +4,11 @@ import EmployeeListItem from './EmployeeListItem'
 
 const EmployeeList = () => {
 
-    let { employees, currentEmployee, changeEmployee } = useContext(AppContext)
-    
+    let { employees, currentEmployee, changeEmployee, arrayEmployees, filteredEmployees } = useContext(AppContext)
+    //filteredEmployees is delayed by 1 key
   return (
     <div className='employeeList'>
-        {employees.map((employee, index) => {
+        {filteredEmployees.map((employee, index) => {
             return (
                 <EmployeeListItem employee={employee} index={index} key={index}/>
             )

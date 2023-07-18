@@ -8,6 +8,7 @@ const EmployeeListItem = ( {employee, index, parent} ) => {
 
   return (
     // <div className='employeeContainer' onClick={() => changeEmployee(index)}>
+    // conditionally rendered onClick
     <div className='employeeContainer' onClick={() => {parent !== 'employee' && changeEmployee(index)}}>
       <div className='left'>
         <img src={employee.image}/>
