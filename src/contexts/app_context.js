@@ -1,4 +1,5 @@
 import { useState, createContext } from "react";
+import employees from "../models/employees";
 
 
 // create context
@@ -11,7 +12,9 @@ const AppContextProvider = (props) => {
     let [test, setTest] = useState('testing')
     return(
     <AppContext.Provider value={{
-        test
+        employees,
+
+        
     }}>
         {props.children}
     </AppContext.Provider>

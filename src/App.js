@@ -1,6 +1,8 @@
 import { useContext } from 'react';
 import './App.css';
 import { AppContext } from './contexts/app_context';
+import HomePage from './components/HomePage';
+import EmployeePage from './components/EmployeePage';
 
 function App() {
 
@@ -9,7 +11,10 @@ function App() {
   
   return (
     <div className="App">
-      {test}
+      
+      <HomePage />
+      <EmployeePage />
+
     </div>
   );
 }
