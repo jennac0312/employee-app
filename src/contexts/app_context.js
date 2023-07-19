@@ -15,7 +15,7 @@ const AppContextProvider = (props) => {
     const [filteredEmployees, setFilteredEmployees] = useState(employees) // to hold employees from filters... start will all employees
 
     const changeEmployee = (index) => {
-        setCurrentEmployee(employees[index])
+        setCurrentEmployee(filteredEmployees[index]) //almost missed this fix
         setShowEmployee(true)
     }
 

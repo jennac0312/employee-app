@@ -72,6 +72,7 @@ input:focus{
 .employeeList{
   border: 2px solid purple;
   height: 493px;
+  overflow: hidden;
 }
 
 .employeeContainer{
@@ -155,6 +156,11 @@ img{
   border: 1px solid grey;
   border-radius: 10px;
   margin: 20px;
+}
+.employeeInfo > *:hover{
+  background-color: white !important;
+  cursor: default;
+  /* slick way to get rid of employee page hover */
 }
 
 .employeeInfo > * {

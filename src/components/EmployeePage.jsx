@@ -4,7 +4,7 @@ import { AppContext } from '../contexts/app_context'
 import EmployeeListItem from './EmployeeListItem'
 
 const EmployeePage = () => {
-    let { currentEmployee, changeEmployee } = useContext(AppContext)
+    let { currentEmployee } = useContext(AppContext)
     console.log('current employee is:', currentEmployee.name)
 
   return (

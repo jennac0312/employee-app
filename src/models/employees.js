@@ -137,6 +137,29 @@ const employees = [
             },
         ]
     },
+    {
+        name: "Cindy Ydnic",
+        role: "QA Manager",
+        image: 'https://cdn4.vectorstock.com/i/1000x1000/72/98/female-avatar-profile-icon-round-african-american-vector-18307298.jpg',
+        contacts: [
+            {
+                method: 'Call Office',
+                number: '1-800-999-2626'
+            },
+            {
+                method: 'Call Mobile',
+                number: '412-555-3242'
+            },
+            {
+                method: 'SMS',
+                number: '412-555-1233'
+            },
+            {
+                method: 'Email',
+                number: 'pjones@fakemail.com'
+            },
+        ]
+    },
 ]
 
 module.exports = employees

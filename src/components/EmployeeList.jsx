@@ -4,7 +4,7 @@ import EmployeeListItem from './EmployeeListItem'
 
 const EmployeeList = () => {
 
-    let { employees, currentEmployee, changeEmployee, arrayEmployees, filteredEmployees } = useContext(AppContext)
+    let { filteredEmployees } = useContext(AppContext)
     //filteredEmployees is delayed by 1 key
   return (
     <div className='employeeList'>
