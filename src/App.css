@@ -72,7 +72,12 @@ input:focus{
 .employeeList{
   border: 2px solid purple;
   height: 493px;
-  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.employeeList::-webkit-scrollbar{
+  display: none; 
+  /* hide scrol bar without removing its functionaliy!!!!! */
 }
 
 .employeeContainer{

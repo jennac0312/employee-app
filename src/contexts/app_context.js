@@ -9,7 +9,7 @@ export const AppContext = createContext()
 const AppContextProvider = (props) => {
     // global context
     const [currentEmployee, setCurrentEmployee] = useState(employees[1])
-    const [showEmployee, setShowEmployee] = useState(true)
+    const [showEmployee, setShowEmployee] = useState(false)
     const [buttonCount, setButtonCount] = useState(0)
     const [searchEmployee, setSearchEmployee] = useState('') //for input
     const [filteredEmployees, setFilteredEmployees] = useState(employees) // to hold employees from filters... start will all employees
