@@ -138,9 +138,9 @@ const employees = [
         ]
     },
     {
-        name: "Cindy Ydnic",
-        role: "QA Manager",
-        image: 'https://cdn4.vectorstock.com/i/1000x1000/72/98/female-avatar-profile-icon-round-african-american-vector-18307298.jpg',
+        name: "Tina Turner",
+        role: "Singer",
+        image: 'https://assets.vogue.com/photos/646fcec2b5c56bc40d66a0d6/4:3/pass/undefined',
         contacts: [
             {
                 method: 'Call Office',
@@ -156,14 +156,14 @@ const employees = [
             },
             {
                 method: 'Email',
-                number: 'pjones@fakemail.com'
+                number: 'tturner@proudmary.com'
             },
         ]
     },
     {
-        name: "Stanley Yelnats",
-        role: "QA Manager",
-        image: 'https://cdn4.vectorstock.com/i/1000x1000/72/98/female-avatar-profile-icon-round-african-american-vector-18307298.jpg',
+        name: "Sade",
+        role: "Artist",
+        image: 'https://www.radiopunto.it/wp/wp-content/uploads/2021/12/a1a1sade-300x300.jpg',
         contacts: [
             {
                 method: 'Call Office',
@@ -179,7 +179,30 @@ const employees = [
             },
             {
                 method: 'Email',
-                number: 'pjones@fakemail.com'
+                number: 'sadu@loversrock.com'
+            },
+        ]
+    },
+    {
+        name: "Erykah Badu",
+        role: "Artist",
+        image: 'https://sistersofresistance.files.wordpress.com/2011/03/erykahbadu.jpg',
+        contacts: [
+            {
+                method: 'Call Tyrone',
+                number: '1-800-999-2626'
+            },
+            {
+                method: 'Call Mobile',
+                number: '412-555-3242'
+            },
+            {
+                method: 'SMS',
+                number: '412-555-1233'
+            },
+            {
+                method: 'Email',
+                number: 'ebadu@baglady.com'
             },
         ]
     },

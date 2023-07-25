@@ -51,7 +51,7 @@ const AppContextProvider = (props) => {
             }
         })
         console.log(arrayEmployees)
-        console.log(`%cFiltered Employees: ${filteredEmployees}`, 'color: red')
+        console.log(`%cFiltered Employees: ${filteredEmployees.length}`, 'color: red')
         console.log(filteredEmployees)
     }
 
